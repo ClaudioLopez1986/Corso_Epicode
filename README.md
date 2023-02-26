@@ -1,1 +1,1 @@
-# Corso_Epicode/esercizio_2/index.html
+https://ClaudioLopez1986.github.io/Corso_Epicode/Esercizio_2
