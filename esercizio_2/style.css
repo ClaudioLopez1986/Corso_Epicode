@@ -1,0 +1,72 @@
+header{
+    text-align: center;
+}
+
+#logo{
+    width: 200px;
+    margin: auto;
+}
+
+#sottotitolo{
+    background-color: rgb(230, 217, 200);
+    border-top: 1px solid orange;
+    text-align: center;
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+.conteiner{
+    width: 600px;
+    margin: auto;
+}
+
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+#focaccia{
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 10px 5px #c9c3c3;
+}
+
+figcaption{
+    color: #177;
+}
+
+.text_justif{
+    text-align: left, justify;
+}
+
+#aligne_left{
+    text-align: left;
+}
+
+#featured{
+    color: red;
+}
+
+.link_finto{
+    text-align: left;
+    border-left: 1px solid orange;
+    padding-left: 20px;
+}
+
+#final{
+    text-align: left;
+    border-top: 1px solid blue;
+}
+
+.grassetto{
+    font-weight: bold;
+}
+
+.ricetta{
+    border-top: 1px solid blue;
+}
