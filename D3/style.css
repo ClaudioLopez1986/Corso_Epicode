@@ -1,0 +1,150 @@
+
+body{
+    background-color: #eaeded;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#logo{
+    width: 200px;
+    padding: 10px;
+}
+
+.bg-dark{
+    background-color:#222f3e;
+}
+
+.bg-soft p{
+    display: inline-block;
+    margin-left: 15px;
+    color: #eaeded;
+}
+
+.bg-soft{
+    background-color:#354758;
+}
+
+.bg-soft link{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #eaeded;
+}
+
+.bar_up{
+    background-color:#f56600;
+    color: #eaeded;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.bar_down{
+    background-image:url(assets/bg-image.png);
+    color: #eaeded;
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+
+}
+
+.blocco{
+   margin: 30px;
+   padding: 10px;
+   background-color: white;
+}
+
+.didascalia{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.immagini_in_serie{
+    display: inline-flex;
+    
+}
+
+.card_1{
+    width: 270px;
+    height: 350px;
+    background-image: url(assets/img_1.jpg);
+    background-size: cover;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 5px #e7e5e5;
+}
+
+.card_2{
+    width: 270px;
+    height: 350px;
+    background-image: url(assets/img_2.jpg);
+    background-size: cover;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 5px #e7e5e5;
+}
+
+
+.card_3{
+    width: 270px;
+    height: 350px;
+    background-image: url(assets/img_3.jpg);
+    background-size: cover;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 5px #e7e5e5;
+}
+
+
+.card_4{
+    width: 270px;
+    height: 350px;
+    background-image: url(assets/img_4.jpg);
+    background-size: cover;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 5px #e7e5e5;
+}
+
+.blocchi_uguali{
+    margin: 25px;
+   padding: 10px;
+}
+
+.immagine_grande_1{
+    background-image: url(assets/img_9.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.descrizione{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.immagine_grande_2{
+    background-image: url(assets/img_10.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer .bg-dark{
+    padding: 40px;
+}
+
+footer .bg-soft{
+    padding: 5px;
+}
+
+footer a{
+    font-weight: bold;
+    color: white;
+}
