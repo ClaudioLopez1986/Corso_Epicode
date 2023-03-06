@@ -1,0 +1,42 @@
+.container div {
+    width: 120px;
+    height: 120px;
+    display: inline-flex;
+  }
+
+  .container{
+    width: 600px;
+    height: 600px;
+  }
+  .red-square {
+    background-color: #f0002c;
+    position: absolute;
+  }
+  .pink-square {
+    background-color: #e0abd8;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    z-index: 1;
+  }
+  .yellow-square {
+    background-color: #f0c800;
+    position: relative;
+    top: 20%;
+    z-index: 2;
+
+  }
+  .green-square {
+    background-color: #32a852;
+    position: relative;
+    top: 30%;
+    left: -10%;
+    z-index: 3;
+  }
+  .blue-square {
+    background-color: #0486d6;
+    position: relative;
+    left: -20%;
+    top: 40%;
+    z-index: 4;
+  }
