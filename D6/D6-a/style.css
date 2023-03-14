@@ -1,0 +1,104 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    }
+
+.card{
+    /* margin-top: 200px; */
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid red;
+    border-radius: 30px;
+    background: black;
+    position: relative;
+    z-index: 0;
+
+}
+
+.card img:hover {
+    filter: brightness(50%);
+}
+
+.card img{
+    background: black;
+    transition: .5s;
+}
+
+.card .jpg {
+    max-width: 400px;
+}
+
+.tasto_rosso{
+    position: absolute;
+    top: -35px;
+    right: 40px;
+    z-index: 1;
+}
+
+.tasto_rosso a {
+    background: red;
+    color: white;
+    padding: .7rem 1rem;
+    border-radius: 30px;
+}
+
+
+
+.card:hover .tasto_rosso{
+    top: 20px;
+    transition: 5s;
+}
+
+
+.tre_tasti{
+    position: absolute;
+    bottom: -45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+#primo{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    padding: .7rem .3rem;
+    border-radius: 30px;
+}
+
+.card:hover .tre_tasti{
+    bottom: 35px;
+    transition: 5s;
+}
+
+.tre_tasti i {
+    background: wheat;
+    padding: .7rem .3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.tre_tasti i:hover{
+    background-color: aliceblue;
+   
+}
