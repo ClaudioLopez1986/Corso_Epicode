@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+
+}
+
+div.parte_sinistra{
+    display: flex;
+}
+
+
+/* inizio header */
+
+header{
+    width: 100%;
+    height: 70px;
+    border-bottom: solid 1px #cfcfcfd2;
+    
+}
+
+div.header_total{
+    /* background-color: blue; */
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 100px;
+    width: 100%;
+}
+
+#logo{
+    width: 160px;
+}
+
+div.header_left{
+    display: flex;
+    align-items: center;
+}
+
+div.header_right{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+div.icone{
+    
+    display: flex;
+    height: 40px;
+    /* background-color: #f4511e; */
+    align-items: baseline;
+    padding-top: 12px;
+}
+
+i{
+    font-size: smaller;
+    height: auto;
+    color: #c8c8c8;
+    margin: 0 6px;
+    cursor: pointer;
+    
+    
+}
+
+#resume{
+    border-radius: 15px;
+    padding: 4px 10px;
+    border: solid 2px #c8c8c8;
+    width: 160px;
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+    
+    
+}
+
+
+#name{
+    border: 1px solid #f4511e;
+    border-radius: 50%;
+    padding: 7px 10px;
+    background-color: #f4511e;
+    color: white;
+    cursor: pointer;
+}
+
+/* fine header */
+
+/* inizio corpo del sito - parte sinistra */
+
+div.parte_sinistra{
+    
+    width: 70%;
+    border-right: solid 1px #cfcfcfd2;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #b8ceb3; */
+    height: 100%;
+}
+
+/* inizio barra di navigazione */
+
+nav{
+    /* background-color: #2fc91b; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+div.menu{
+    /* background-color: aqua; */
+    display: flex;
+    height: 60px;
+    padding-top: 40px;
+    background-color: white;
+    border-bottom: solid 1px #cfcfcfd2;
+    padding-left: 90px;
+     
+}
+
+span.item_menu{
+    font-size: 10px;
+    color: #c8c8c8;
+    cursor: pointer;
+    padding-right: 20px;
+    font-weight: bolder;
+
+    
+}
+
+#nero{
+    /* background-color: #2fc91b; */
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    color: black;
+    /* margin-bottom: -4px; */
+    padding-right: 0px;
+}
+
+/* fine barra di navigazione */
+
+/* inizio section articoli */
+
+#prima_section{
+    /* border-top: solid 1px #cfcfcfd2; */
+     margin-top: 50px;
+}
+
+div.section{
+    margin: 0px 50px 20px 100px;
+    /* background-color: rgb(56, 189, 39); */
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding-top: 30px; 
+    /* grandezza = 931.79px */
+}
+
+div.section_left{
+    /* background-color: rgb(39, 41, 189); */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    width: 70%; 
+    /* grandezza = 931.79px */
+}
+
+div.autore{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* background-color: #f4511e; */
+    
+}
+
+.minifoto_autore{
+    width: 25px;
+    cursor: pointer;
+}
+
+.grigio{
+    color: #c8c8c8;
+}
+
+.nome_autore{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+div.testo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+h3{
+    font-size: 20px;
+}
+
+.dimensione{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.mini_bar{
+    /* background-color: rebeccapurple; */
+    display: flex;
+}
+
+.mini_bar_left{
+    width: 80%;
+    /* background-color: #2fc91b; */
+    
+}
+
+.riferimento_puntino{
+    /* background-color: #2fc91b; */
+    position: relative;
+}
+
+.spazioinpiu{
+    margin-left: 7px;
+}
+
+.puntino{
+    font-weight: bold;
+    position: absolute;
+    top: -2px;
+    padding-left: 1px;
+    width: 10px;
+    height: 10px;
+    /* background-color: #f4511e; */
+}
+
+.badge{
+    border: solid 1px #e6e4e4;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color:  #e6e4e4;
+}
+
+.mini_bar_right{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+        
+    /* background-color: antiquewhite; */
+}
+
+.mini_bar_right > i{
+    width: 30px;
+    height: auto;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.mini_bar_left > span{
+    font-size: 10px;
+    
+}
+
+div.section_right{
+    width: 30%;
+    display: flex;
+    /* background-color: pink; */
+    
+}
+
+img.cartolina{
+    width: 100%;
+    height: 90%;
+    cursor: pointer;
+}
+
+/* fine section articoli */
+
+/* corpo del sito - fine parte sinistra */
+
+/* corpo del sito - inizio parte destra */
+
+div.parte_destra{
+    /* background-color: #f4511e; */
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    
+}
+
+/* Contenitore twitter */
+
+div.container_twitter{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 30px 90px 30px 50px;
+    /* background-color: aqua; */
+    border-bottom: 1px solid #cfcfcfd2;
+    width: 70%;
+}
+
+#twitter{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+#twitter2{
+    width: 30px;
+    padding: 5px;
+}
+
+div.descrizione_twitter{
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.bottone_twitter{
+    border: 2px solid #c8c8c8;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 11px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* background-color: #2fc91b; */
+}
+
+div.sottolineato{
+    font-size: 12px;
+    color: #c8c8c8;
+    text-decoration: underline;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+/* Contenitore Topic */
+
+div.recommended_topics{
+    /* background-color: #4a1bc9; */
+    width: 70%;
+    margin: 30px 100px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+div.topic{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+    row-gap: 15px;
+    text-align: center;
+   
+}
+
+.title_section{
+    margin-bottom: 10px;
+    
+}
+
+.topic_name{
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px 15px 0px 0px;
+    align-content: space-between;
+    margin-right: 20px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+/* Contenitore Follower  */
+
+div.stiky{
+    width: 70%;
+    /* margin-left: 40px; */
+    position: sticky;
+    top: 0;
+    margin: 20px 100px 0px 50px;
+}
+
+
+
+div.follower{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #2fc91b; */
+    width: 100%;
+    
+}
+
+div.sloat{
+    display: flex;
+    gap: 15px;
+    align-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+div.sloat_left{
+    display: flex;
+}
+
+div.sloat_center{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 160px;
+}
+
+.sloat_right{
+    display: flex;
+}
+
+
+img.foto_follower{
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50px;
+}
+
+span.nome_follower{
+    font-weight: bold;
+    font-size: small;
+}
+
+span.descrizione_follower{
+    font-size: 10px;
+    color: #c8c8c8;
+}
+
+span.bottone_follow{
+    border: 2px solid #c8c8c8;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: smaller;
+    cursor: pointer;
+    
+}
+
+
+/* contenitore recently saved */
+
+div.recently_saved{
+    /* background-color: #d829ac; */
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#dimensione{
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.grandezza{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.green{
+    color: #2fc91b;
+    font-size: smaller;
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* contenitore footer */
+
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* background-color: #2fc91b; */
+    margin-top: 30px;
+}
+
+footer > ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+
+}
+
+footer > ul > li{
+    margin-right: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
