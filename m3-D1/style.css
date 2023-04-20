@@ -1,0 +1,48 @@
+div.jumbotron div.col-md-6 h1 {
+    color: red;
+}
+
+.nav *{
+    color: yellow;
+}
+
+.jumbotron .col-md-6 .font-weight-bold{
+ color: blue;   
+}
+
+.col-md-8 .blog-post:first-of-type{
+    color: green;
+}
+
+.container hr{
+    border-color:red;
+}
+
+.nav *:nth-child(even){
+    color: yellow;
+}
+
+.p-4 .mb-0 a{
+    color: green;
+}
+
+.col-md-8 .blog-post:nth-child(3) .blog-post-meta a{
+    color:red;
+}
+
+.col-md-8 .blog-post:nth-child(4) li:nth-child(2){
+    color: burlywood;
+}
+
+
+.float-right{
+    color:brown;
+}
+
+.blog-pagination a:nth-child(2){
+    color: pink;
+}
+
+.blog-footer .text-center a:nth-child(2){
+    color:yellow
+}
