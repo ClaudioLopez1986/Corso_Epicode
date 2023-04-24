@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Esercizio 1 */
+
+#card {
+    overflow: hidden;
+    border-radius: 70px;
+    height: 370px;
+    width: 270px;
+    background-color: bisque;
+}
+
+#imgcontainer {
+    width: 100%;
+    height: 75%;
+}
+
+#imgcontainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#prodinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+
+#prodprice {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#prodprice p:first-child {
+    font-size: .8rem;
+}
+
+#prodprice p span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(255, 204, 0);
+    border: none;
+    border-radius: 30px;
+    padding: 7px 40px;
+}
+
+/* Esercizio 2 */
+
+nav {
+    border-radius: 70px;
+    padding: 20px 0;
+    width: 95%;
+    max-width: 900px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav>p {
+    padding: 15px 25px;
+    background-color: rgb(244, 208, 109);
+    border-radius: 40px;
+}
+
+#logocontainer {
+    padding: 15px 15px;
+    background-color: rgb(244, 208, 109);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logocontainer img {
+    width: 50px;
+}
+
+#logocontainer p {
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+/* Esercizio 3 */
+
+article {
+    border-radius: 30px;
+    background-color: bisque;
+    max-width: 70vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+article > div {
+    padding: 20px;
+}
+
+#articolo {
+    max-width: 400px;
+}
+
+#immagine {
+    max-width: 400px;
+}
+
+#immagine img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
